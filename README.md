@@ -4,5 +4,5 @@
 2. Using multiple Spring Configuring XML files
 3. Spring Autowiring
 
-## Common Programming Idioms and Code Structure
+## Common programming idioms and code structure
 4. Basic Application Design
