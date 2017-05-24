@@ -64,7 +64,7 @@ public class AppTest extends TestCase {
         insert( person);
 
         update(person);
-        delete(person);
+        //delete(person);
         System.out.println("Hola! " + read().get(0).getMessage());
     }
 
