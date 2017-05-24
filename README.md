@@ -6,3 +6,5 @@
 
 ## Common programming idioms and code structure
 4. Basic application design
+## Run either 
+4. Application (demo main program) or AppTest (test)// TODO lots and lots of cleaning etc but idea works OK
