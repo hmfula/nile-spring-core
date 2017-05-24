@@ -30,7 +30,7 @@ public class AppTest extends TestCase {
     @Test
     public void test() throws Exception {
         assertNotNull(jdbcTemplate);
-        jdbcTemplate.execute("DROP TABLE test");
+       jdbcTemplate.execute("DROP TABLE test");
         jdbcTemplate.execute(
                 "CREATE TABLE TEST (ID INT , Name VARCHAR(20),"
                         + " Message VARCHAR(20))");
@@ -49,7 +49,7 @@ public class AppTest extends TestCase {
 
     public void insertIntoDb(Integer id, String name, String message) {
         final SimpleJdbcInsert inserter = new SimpleJdbcInsert(getDataSource())
-                .withTableName("test")
+                .withTableName("TEST")
                 .usingGeneratedKeyColumns("id");
         Map parameters = new HashMap();
         parameters.put("name", name);
@@ -117,7 +117,7 @@ public class AppTest extends TestCase {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
 
         dataSource.setDriverClassName("org.apache.derby.jdbc.EmbeddedDriver");
-        dataSource.setUrl("jdbc:derby:KPIStorageService_PU;create=true");
+        dataSource.setUrl("jdbc:derby:PersonDB;create=true");
         /* Connecting Derby or something else, use something like following:
         dataSource.setDriverClassName("org.apache.derby.jdbc.ClientDriver");
         dataSource.setUrl("jdbc:derby://localhost:1527/db1;create=true");
