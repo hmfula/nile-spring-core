@@ -3,8 +3,11 @@
 1. Configuring Spring beans in XML
 2. Using multiple Spring configuration XML files
 3. Spring autowiring
+4. JdbcTemplate
+5. Embedded Derby Database Usage with Spring
+6. Guava Cache
 
 ## Common programming idioms and code structure
-4. Basic application design
+7. Basic application design
 ## Run either 
-5. Application (demo main program) or AppTest (test) // TODO lots and lots of cleaning etc but idea works OK
+8. Application (demo main program) or AppTest (test) // TODO lots and lots of cleaning etc but idea works OK
