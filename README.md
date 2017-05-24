@@ -1,5 +1,5 @@
 # Demonstrates the following  
-## Spring Core features
+## Spring core features
 1. Configuring Spring Beans in XML
 2. Using multiple Spring Configuring XML files
 3. Spring Autowiring
